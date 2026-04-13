@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to top, #1b4d3e,#0b321c);
+    margin: 0;
+    padding: 0;
+}
+
+/*nav bar*/
+.navbar {
+    border-bottom: 4px solid rgb(204, 113, 9);
+    background: linear-gradient(to top,#1b4d3e,#0b321c);
+}
+
+.navbar img{
+    height: 70px;
+}
+
+.navbar-brand {
+    color: #f4f5f6;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: bold;
+}
+
+.navbar-nav .link-nav {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #f4f5f6;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #ffffff3f;
+    border-radius: 50px;
+}
+
+.navbar-nav .link-nav:hover {
+    background-color: #cc7109;
+    color: #ffffff;
+}
+
+
+/*banner principal*/
+.banner-container {
+    height: 80vh;
+    min-height: 500px;
+    background-image: url('escola.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.historia-wrapper {
+    width: 100%;
+    max-width: 500px;
+    margin-right: 5%;
+}
+
+.historia-box {
+    background-color: #0b321ce6;
+}
+
+/* cursos */
+.Cursos {
+    color: #f4f5f6;
+    margin-top: 4px solid #cc7109;
+}
+
+.logo img{
+    height: 80px;
+}
+
+.text-adm {
+    color: #134E95;
+}
+
+.text-dds {
+    color: #5a129d;
+}
+
+.text-edf {
+    color: #fd7e14;
+}
+
+.text-masso {
+    color: #1B6D3F;
+}
+
+.titulo-cards h2{
+    color:#f4f5f6
+}
+
+.card-img-top {
+    height: 420px;
+}
+
+/*cards eventos*/
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px #00000026;
+}
+
+/*FOOTER*/
+footer.footer-customizado {
+    border-top: 5px solid #ff8c00;
+    background: linear-gradient(to top, #0b321c, #1b4d3e);
+    color: white;
+}
+
+footer.footer-customizado .footer-titulo {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+footer.footer-customizado .footer-subtitulo {
+    color: #e0e0e0;
+}
+
+footer.footer-customizado .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+footer.footer-customizado .contact-item svg {
+    fill: #ffc107;
+    flex-shrink: 0;
+}
+
+footer.footer-customizado .contact-item a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer.footer-customizado .contact-item a:hover {
+    color: #ffc107;
+    text-decoration: underline;
+}
+
+footer.footer-customizado .footer-bottom {
+    border-top: 1px solid #ffffff21;
+}
+
+footer.footer-customizado .footer-bottom p {
+    color: #ffffff21;
+    font-size: 0.9rem;
+}
